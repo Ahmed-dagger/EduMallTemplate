@@ -1,0 +1,369 @@
+/* styles.css */
+*
+{
+    font-family: "montserrat";
+}
+.tph-icons
+{
+    color: #0071DC
+}
+.infos
+{
+    font-weight: 500;
+    size: 13px;
+
+}
+.icons
+{
+    color: #333333;
+    transition: 0.3s;
+}
+
+.icons:hover
+{
+    color: #FFC221;
+}
+
+.cardentials
+{
+    font-style: none;
+    text-underline-offset: none;
+    transition: 0.3s;
+    color: #333333;
+    font-weight: 500;
+    size: 13px;
+}
+.cardentials:hover
+{
+    color: #FFC221;
+    text-decoration: none;
+}
+
+.top-header {
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #EBEEF6
+}
+
+.top-header .contact-info i {
+    margin-right: 5px;
+}
+
+.top-header .user-actions a {
+    color: #333;
+}
+
+.top-header .user-actions a:hover {
+    color: #007bff;
+}
+
+.main-header .logo a {
+    max-height: 40px;
+}
+
+
+.main-header .navbar-nav .nav-item .nav-link {
+    color: #333;
+    padding: 0 20px;
+}
+
+.main-header
+{
+    box-shadow: 0px 4px 8px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.main-header .navbar-nav .nav-item.active .nav-link,
+.main-header .navbar-nav .nav-item .nav-link:hover 
+{
+    color: #007bff;
+    border-bottom: solid 2px #007bff ; 
+}
+
+.navbar-nav
+{
+    width: max-content;
+}
+
+.navbar-nav .nav-item
+{
+    width: max-content;
+}
+
+.main-header .cart a {
+    color: #333;
+    position: relative;
+}
+
+.main-header .cart a .badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    font-size: 12px;
+}
+
+.midSet
+{
+    background-image: url('Container\(cropped\).png');
+    background-color: #F5F7FD;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 780px;
+    align-items: center;
+}
+.parentGirls
+{
+    display: hidden;
+}
+.girls
+{
+    
+    display: none;
+
+}
+/*
+.gril1
+{
+ 
+
+
+}
+.girl2
+{ 
+    
+}
+*/
+.learnTitle
+{
+   text-align: center;
+    font-weight:700 ;
+    font-family: "montserrat";
+    padding-top: 12%;
+    
+  
+
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 22vh;
+    
+}
+.search-box input[type="text"] {
+    width: 630px;
+    height: 68px;
+    padding: 10px 20px;
+    border-radius: 5px 0 0 5px;
+    border: 1px solid #ced4da;
+    border-right: none;
+    outline: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    background-color: white;
+}
+
+.search-box input[type="text"]::placeholder {
+    color: #757575;
+    font-size: 16px;
+}
+.search-box button {
+    background: white;
+    border: 1px solid #ced4da;
+    border-left: none;
+    border-radius: 0 5px 5px 0px;
+    outline: none;
+    cursor: pointer;
+    width: 50px;
+    height: 68px;
+    font-size: 17px;
+    color: #007bff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.adItems
+{
+    padding-top: 50px;
+}
+.courses
+{
+    height: max-content;
+    
+
+}
+.divcousresTitle
+{
+    text-align: center;
+   
+}
+.courseTitle
+{
+    font-weight: 700;
+    font-size:28px ;
+    padding-top: 5%;
+}
+.filteringMenu
+{
+    text-align: center;
+    padding-top: 3%;
+}
+.buttonStyling
+{
+    color: #333;
+   
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    transition: 0.3s;
+   
+
+}
+.buttonStyling:hover
+{
+    color: #0071DC; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #F5F5F5;
+}
+.Level
+{
+    background-color: #0071DC26;
+    width: 81px;
+    text-align: center;
+    color: #0071DC;
+    border-radius: 2px;
+
+}
+
+.cardCourseTitle
+{
+    font-weight: 700;
+}
+
+.countersPlace
+{
+    background-color: #d9e0f7;
+    padding: 100px 0px 100px 0px;
+}
+.counterTitle
+{
+    font-weight: 700;
+    font-size: 20px;
+}
+.counterDesc
+{
+    font-weight: 700;
+    font-size: 14px;
+
+}
+
+.Achieve
+{
+    font-weight: 700;
+    font-size: 32px;
+}
+.EventsPlace
+{
+    background-color: white;
+    padding: 100px 0px 100px 0px;
+
+}
+
+.team-boxed {
+    color:#313437;
+    background-color:#eef4f7;
+  }
+  
+  .team-boxed p {
+    color:#7d8285;
+  }
+  
+  .team-boxed h2 {
+    font-weight:bold;
+    margin-bottom:40px;
+    padding-top:40px;
+    color:inherit;
+  }
+  
+  @media (max-width:767px) {
+    .team-boxed h2 {
+      margin-bottom:25px;
+      padding-top:25px;
+      font-size:24px;
+    }
+  }
+  
+  .team-boxed .intro {
+    font-size:16px;
+    max-width:500px;
+    margin:0 auto;
+  }
+  .team-boxed h2
+  {
+    font-size: 15PX;
+  }
+  
+  .team-boxed .intro p {
+    font-size: 30px;
+    font-weight: 700;
+    display: inline-block;
+
+  }
+  
+  .team-boxed .people {
+    padding:50px 0;
+  }
+  
+  .team-boxed .item {
+    text-align:center;
+  }
+  
+  .team-boxed .item .box {
+    text-align:center;
+    padding:30px;
+    background-color:#fff;
+    margin-bottom:30px;
+  }
+  
+  .team-boxed .item .name {
+    font-weight:bold;
+    margin-top:28px;
+    margin-bottom:8px;
+    color:inherit;
+  }
+  
+  .team-boxed .item .title {
+    text-transform:uppercase;
+    font-weight:bold;
+    color:#d0d0d0;
+    letter-spacing:2px;
+    font-size:13px;
+  }
+  
+  .team-boxed .item .description {
+    font-size:15px;
+    margin-top:15px;
+    margin-bottom:20px;
+  }
+  
+  .team-boxed .item img {
+    max-width:160px;
+  }
+  
+  .team-boxed .social {
+    font-size:18px;
+    color:#a2a8ae;
+  }
+  
+  .team-boxed .social a {
+    color:inherit;
+    margin:0 10px;
+    display:inline-block;
+    opacity:0.7;
+  }
+  
+  .team-boxed .social a:hover {
+    opacity:1;
+  }
+  
+  
